@@ -1,0 +1,293 @@
+<resources>
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1647159480625524/1410912895</string>
+
+    <string name="app_name">Bíblia Monte Sião</string>
+
+    <string name="title_section_bible">Bíblia</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="livros_list">
+        <item>Gênesis</item>
+        <item>Êxodo</item>
+        <item>Levítico</item>
+        <item>Números</item>
+        <item>Deuteronômio</item>
+        <item>Josué</item>
+        <item>Juízes</item>
+        <item>Rute</item>
+        <item>1 Samuel</item>
+        <item>2 Samuel</item>
+        <item>1 Reis</item>
+        <item>2 Reis</item>
+        <item>1 Crônicas</item>
+        <item>2 Crônicas</item>
+        <item>Esdras</item>
+        <item>Neemias</item>
+        <item>Ester</item>
+        <item>Jó</item>
+        <item>Salmos</item>
+        <item>Provérbios</item>
+        <item>Eclesiastes</item>
+        <item>Cantares</item>
+        <item>Isaías</item>
+        <item>Jeremias</item>
+        <item>Lamentações</item>
+        <item>Ezequiel</item>
+        <item>Daniel</item>
+        <item>Oseias</item>
+        <item>Joel</item>
+        <item>Amós</item>
+        <item>Obadias</item>
+        <item>Jonas</item>
+        <item>Miqueias</item>
+        <item>Naum</item>
+        <item>Habacuque</item>
+        <item>Sofonias</item>
+        <item>Ageu</item>
+        <item>Zacarias</item>
+        <item>Malaquias</item>
+        <item>Mateus</item>
+        <item>Marcos</item>
+        <item>Lucas</item>
+        <item>João</item>
+        <item>Atos dos Apóstolos</item>
+        <item>Romanos</item>
+        <item>1 Coríntios</item>
+        <item>2 Coríntios</item>
+        <item>Gálatas</item>
+        <item>Efésios</item>
+        <item>Filipenses</item>
+        <item>Colossenses</item>
+        <item>1 Tessalonicenses</item>
+        <item>2 Tessalonicenses</item>
+        <item>1 Timóteo</item>
+        <item>2 Timóteo</item>
+        <item>Tito</item>
+        <item>Filemom</item>
+        <item>Hebreus</item>
+        <item>Tiago</item>
+        <item>1 Pedro</item>
+        <item>2 Pedro</item>
+        <item>1 João</item>
+        <item>2 João</item>
+        <item>3 João</item>
+        <item>Judas</item>
+        <item>Apocalipse</item>
+    </string-array>
+
+    <string-array name="siglas_list">
+        <item>Gn</item>
+        <item>Êx</item>
+        <item>Lv</item>
+        <item>Nm</item>
+        <item>Dt</item>
+        <item>Js</item>
+        <item>Jz</item>
+        <item>Rt</item>
+        <item>1Sm</item>
+        <item>2Sm</item>
+        <item>1Rs</item>
+        <item>2Rs</item>
+        <item>1Cr</item>
+        <item>2Cr</item>
+        <item>Ed</item>
+        <item>Ne</item>
+        <item>Et</item>
+        <item>Jó</item>
+        <item>Sl</item>
+        <item>Pv</item>
+        <item>Ec</item>
+        <item>Ct</item>
+        <item>Is</item>
+        <item>Jr</item>
+        <item>Lm</item>
+        <item>Ez</item>
+        <item>Dn</item>
+        <item>Os</item>
+        <item>Jl</item>
+        <item>Am</item>
+        <item>Ob</item>
+        <item>Jn</item>
+        <item>Mq</item>
+        <item>Na</item>
+        <item>Hc</item>
+        <item>Sf</item>
+        <item>Ag</item>
+        <item>Zc</item>
+        <item>Ml</item>
+        <item>Mt</item>
+        <item>Mc</item>
+        <item>Lc</item>
+        <item>Jo</item>
+        <item>At</item>
+        <item>Rm</item>
+        <item>1Co</item>
+        <item>2Co</item>
+        <item>Gl</item>
+        <item>Ef</item>
+        <item>Fp</item>
+        <item>Cl</item>
+        <item>1Ts</item>
+        <item>2Ts</item>
+        <item>1Tm</item>
+        <item>2Tm</item>
+        <item>Tt</item>
+        <item>Fm</item>
+        <item>Hb</item>
+        <item>Tg</item>
+        <item>1Pe</item>
+        <item>2Pe</item>
+        <item>1Jo</item>
+        <item>2Jo</item>
+        <item>3Jo</item>
+        <item>Jd</item>
+        <item>Ap</item>
+    </string-array>
+
+    <integer-array name="chapter_list">
+        <item>50</item>
+        <item>40</item>
+        <item>27</item>
+        <item>36</item>
+        <item>34</item>
+        <item>24</item>
+        <item>21</item>
+        <item>4</item>
+        <item>31</item>
+        <item>24</item>
+        <item>22</item>
+        <item>25</item>
+        <item>29</item>
+        <item>36</item>
+        <item>10</item>
+        <item>13</item>
+        <item>10</item>
+        <item>42</item>
+        <item>150</item>
+        <item>31</item>
+        <item>12</item>
+        <item>8</item>
+        <item>66</item>
+        <item>52</item>
+        <item>5</item>
+        <item>48</item>
+        <item>12</item>
+        <item>14</item>
+        <item>3</item>
+        <item>9</item>
+        <item>1</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>14</item>
+        <item>4</item>
+        <item>28</item>
+        <item>16</item>
+        <item>24</item>
+        <item>21</item>
+        <item>28</item>
+        <item>16</item>
+        <item>16</item>
+        <item>13</item>
+        <item>6</item>
+        <item>6</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>6</item>
+        <item>4</item>
+        <item>3</item>
+        <item>1</item>
+        <item>13</item>
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>5</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>22</item>
+    </integer-array>
+
+    <string-array name="books_list">
+        <item>gn</item>
+        <item>ex</item>
+        <item>lv</item>
+        <item>nm</item>
+        <item>dt</item>
+        <item>js</item>
+        <item>jz</item>
+        <item>rt</item>
+        <item>1sm</item>
+        <item>2sm</item>
+        <item>1rs</item>
+        <item>2rs</item>
+        <item>1cr</item>
+        <item>2cr</item>
+        <item>ed</item>
+        <item>ne</item>
+        <item>et</item>
+        <item>jo</item>
+        <item>sl</item>
+        <item>pv</item>
+        <item>ec</item>
+        <item>ct</item>
+        <item>is</item>
+        <item>jr</item>
+        <item>lm</item>
+        <item>ez</item>
+        <item>dn</item>
+        <item>os</item>
+        <item>jl</item>
+        <item>am</item>
+        <item>ob</item>
+        <item>jn</item>
+        <item>mq</item>
+        <item>na</item>
+        <item>hc</item>
+        <item>sf</item>
+        <item>ag</item>
+        <item>zc</item>
+        <item>ml</item>
+        <item>mt</item>
+        <item>mc</item>
+        <item>lc</item>
+        <item>joa</item>
+        <item>at</item>
+        <item>rm</item>
+        <item>1co</item>
+        <item>2co</item>
+        <item>gl</item>
+        <item>ef</item>
+        <item>fp</item>
+        <item>cl</item>
+        <item>1ts</item>
+        <item>2ts</item>
+        <item>1tm</item>
+        <item>2tm</item>
+        <item>tt</item>
+        <item>fm</item>
+        <item>hb</item>
+        <item>tg</item>
+        <item>1pe</item>
+        <item>2pe</item>
+        <item>1jo</item>
+        <item>2jo</item>
+        <item>3jo</item>
+        <item>jd</item>
+        <item>ap</item>
+    </string-array>
+    <string name="title_activity_clean_main">CleanMainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
