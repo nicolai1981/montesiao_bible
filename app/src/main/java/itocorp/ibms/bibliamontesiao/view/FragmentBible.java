@@ -45,10 +45,6 @@ public class FragmentBible extends Fragment implements AbsListView.OnScrollListe
     private int mBookIndex = 0;
     private boolean mIsBack = false;
 
-    public static FragmentBible newInstance() {
-        return new FragmentBible();
-    }
-
     public FragmentBible() {}
 
     @Override

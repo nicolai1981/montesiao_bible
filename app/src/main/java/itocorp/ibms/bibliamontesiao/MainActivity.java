@@ -12,12 +12,15 @@ import android.widget.ArrayAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
+import de.greenrobot.event.EventBus;
 import itocorp.ibms.bibliamontesiao.view.FragmentBible;
+import itocorp.ibms.bibliamontesiao.view.FragmentSplash;
 
 public class MainActivity extends AppCompatActivity implements NavigationDrawerFragment.NavigationDrawerCallbacks, ActionBar.OnNavigationListener {
     private NavigationDrawerFragment mNavigationDrawerFragment;
     private Fragment mFragment;
     private int mFragmentPos = 0;
+    private boolean mHasFocus = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,10 +39,11 @@ public class MainActivity extends AppCompatActivity implements NavigationDrawerF
 
         getSupportActionBar().hide();
 
-        mFragment = FragmentBible.newInstance();
+        mFragment = new FragmentSplash();
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.container, mFragment).commit();
     }
+
 
     @Override
     public boolean onNavigationItemSelected(int itemPosition, long itemId) {
@@ -60,14 +64,38 @@ public class MainActivity extends AppCompatActivity implements NavigationDrawerF
                 actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
                 actionBar.setListNavigationCallbacks(aAddpt, this);
                 */
-                mFragment = FragmentBible.newInstance();
+                mFragment = new FragmentBible();
                 break;
 
             default:
-                mFragment = FragmentBible.newInstance();
+                mFragment = new FragmentBible();
                 break;
         }
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.container, mFragment).commit();
+    }
+
+    public static class OpenBibleScreenEvent{}
+    public void onEventMainThread(OpenBibleScreenEvent event) {
+        if (mHasFocus) {
+            mFragment = new FragmentBible();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.container, mFragment).commit();
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mHasFocus = true;
+        EventBus.getDefault().register(this);
+    }
+
+    @Override
+    protected void onPause() {
+        mHasFocus = false;
+        EventBus.getDefault().unregister(this);
+
+        super.onPause();
     }
 }
