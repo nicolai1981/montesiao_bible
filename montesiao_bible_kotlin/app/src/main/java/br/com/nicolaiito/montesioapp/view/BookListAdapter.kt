@@ -27,7 +27,7 @@ class BookListAdapter(val context : Context,
         var holder = view.tag as MyViewHolder
         holder.acroView.text = item.acro
         holder.nameView.text = item.name
-        holder.sizeView.text = item.size.toString()
+        holder.sizeView.text = String.format(context.resources.getString(R.string.item_book_total_chapter), item.size)
         return view
     }
 

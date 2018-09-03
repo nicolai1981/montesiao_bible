@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Bible Mount Zion</string>
 
     <string name="actbar_select_book">Select book</string>
     <string name="actbar_select_chapter">Select chapter</string>
+    <string name="item_book_total_chapter">Chapters: %1$d</string>
 
     <string name="book_genesis">Genesis</string>
     <string name="book_exodus">Exodus</string>
@@ -75,12 +77,12 @@
     <string name="acro_exodus">Exo</string>
     <string name="acro_leviticus">Lev</string>
     <string name="acro_numbers">Num</string>
-    <string name="acro_deuteronomy">Deut</string>
+    <string name="acro_deuteronomy">Dt</string>
     <string name="acro_joshua">Jos</string>
     <string name="acro_judges">Jud</string>
-    <string name="acro_ruth">Ruth</string>
-    <string name="acro_1samuel">1Sam</string>
-    <string name="acro_2samuel">2Sam</string>
+    <string name="acro_ruth">Rth</string>
+    <string name="acro_1samuel">1Sm</string>
+    <string name="acro_2samuel">2Sm</string>
     <string name="acro_1kings">1Ki</string>
     <string name="acro_2kings">2Ki</string>
     <string name="acro_1chronicles">1Ch</string>
@@ -92,21 +94,21 @@
     <string name="acro_psalms">Psa</string>
     <string name="acro_proverbs">Pro</string>
     <string name="acro_ecclesiastes">Ecc</string>
-    <string name="acro_songofsolomon">Song</string>
+    <string name="acro_songofsolomon">SoS</string>
     <string name="acro_isaiah">Isa</string>
     <string name="acro_jeremiah">Jer</string>
     <string name="acro_lamentations">Lam</string>
     <string name="acro_ezekiel">Eze</string>
     <string name="acro_daniel">Dan</string>
     <string name="acro_hosea">Hos</string>
-    <string name="acro_joel">Joel</string>
-    <string name="acro_amos">Amos</string>
-    <string name="acro_obadiah">Obad</string>
+    <string name="acro_joel">Jl</string>
+    <string name="acro_amos">Am</string>
+    <string name="acro_obadiah">Ob</string>
     <string name="acro_jonah">Jon</string>
     <string name="acro_micah">Mic</string>
     <string name="acro_nahum">Nah</string>
     <string name="acro_habakkuk">Hab</string>
-    <string name="acro_zephaniah">Zeph</string>
+    <string name="acro_zephaniah">Zep</string>
     <string name="acro_haggai">Hag</string>
     <string name="acro_zechariah">Zec</string>
     <string name="acro_malachi">Mal</string>
@@ -120,7 +122,7 @@
     <string name="acro_2corinthians">2Co</string>
     <string name="acro_galatians">Gal</string>
     <string name="acro_ephesians">Eph</string>
-    <string name="acro_philippians">Phil</string>
+    <string name="acro_philippians">Php</string>
     <string name="acro_colossians">Col</string>
     <string name="acro_1thessalonians">1Th</string>
     <string name="acro_2thessalonians">2Th</string>
